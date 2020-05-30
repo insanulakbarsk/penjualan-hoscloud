@@ -50,7 +50,7 @@
                             @endif
                         </td>
                         <td>
-                        <a href="{{route('categories.restore', [$category->id])}}" class="btn btnsuccess">Restore</a>
+                        <a href="{{route('categories.restore', [$category->id])}}" class="btn btn-success">Restore</a>
                         </td>
                     </tr>
                 @endforeach
